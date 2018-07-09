@@ -1,7 +1,7 @@
 {
   "name": "partition-bundle-zxy",
-  "version": "1.0.1",
-  "description": "A Browserify plugin to pack multiple related modules together and load modules on-demand",
+  "version": "1.0.2",
+  "description": "For drizzlejs, A Browserify plugin to pack multiple related modules together and load modules on-demand",
   "main": "index.js",
   "dependencies": {
     "browser-resolve": "^1.9.1",
