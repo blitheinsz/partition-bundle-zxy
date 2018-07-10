@@ -266,6 +266,11 @@ loadjs.getDependLoadFile = function(file) {
   return fileUrl;
 };
 
+loadjs.loadDependFile = function(file, $, async) {
+  var dependFile = loadjs.getDependLoadFile(file);
+  if ($ && dependFile) $.ajax({ type: 'GET', url: dependFile, async: async });
+};
+
 loadjs.d = __define;
 
 loadjs.url = opts.url || '';
